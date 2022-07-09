@@ -1,0 +1,43 @@
+.block{
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-evenly;
+}
+button{
+    background-color: green;
+    color: white;
+    border-color: green;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+.block_1{
+    text-align: center;
+    width: 20%;
+    height: 450px;
+    box-shadow: 0 0 20px 0 grey;
+    border-radius: 20px;
+}
+.block_1 img{
+    width: 150px;
+    height: 200px;
+}
+
+.block_4{
+    text-align: center;
+    width: 20%;
+    height: 450px;
+    box-shadow: 0 0 20px 0 grey;
+    border-radius: 20px;
+}
+.block_4 img{
+    width: 150px;
+    height: 200px;
+}
+.bonus{
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.block_4 button{
+    margin-top: -25px;
+}

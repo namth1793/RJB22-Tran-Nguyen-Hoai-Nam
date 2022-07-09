@@ -1,0 +1,25 @@
+.block{
+    width: 30%;
+    margin: 100px auto;
+    display: flex;
+    box-shadow: 0 5px 20px 0;
+}
+.block_inside{
+    margin: auto;
+}
+.block_content{
+    margin-top: -10px;
+}
+img {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+p:nth-child(2){
+    font-weight: 700;
+    line-height: 20px;
+}
+p:nth-child(odd){
+    line-height: 30px;
+    font-size: 13px;
+}

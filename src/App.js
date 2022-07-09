@@ -1,23 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-
+import BlockUI6 from './block_ui_6/block-ui-6-images/blockui6';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BlockUI6/>
     </div>
   );
 }

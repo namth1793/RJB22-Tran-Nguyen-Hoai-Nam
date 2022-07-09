@@ -1,0 +1,15 @@
+.block{
+    width: 25%;
+    margin: 70px auto;
+    line-height: 15px;
+    display: flex;
+    box-shadow: 0 5px 20px 0;
+}
+img {
+    margin-left: 10px;
+}
+.block_content{
+    width: 90%;
+    margin: auto;
+    margin-top: -20px;
+}

@@ -1,0 +1,38 @@
+.block {
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-evenly;
+    color: white;
+    width: 70%;
+    height: 200px;
+    box-shadow: 0  5px 20px 0 black;
+    padding: 20px
+}
+.under{
+    margin-top: 70px;
+    line-height: 5px;
+}
+.facebook{
+    width: 15%;
+    background-color: rgb(131, 131, 231);
+    box-shadow: inset 0 0 10px -5px black;
+    padding: 10px;
+}
+.twitter{
+    width: 15%;
+    background-color: rgb(87, 200, 241);
+    box-shadow: inset 0 0 10px -5px black;
+    padding: 10px;
+}
+.google{
+    width: 15%;
+    background-color: orange;
+    box-shadow: inset 0 0 10px -5px black;
+    padding: 10px;
+}
+.pinterest{
+    width: 15%;
+    background-color: rgb(236, 108, 108);
+    box-shadow: inset 0 0 10px -5px black;
+    padding: 10px;
+}
