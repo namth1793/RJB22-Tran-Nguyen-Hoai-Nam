@@ -1,0 +1,39 @@
+.block_music{
+    box-shadow: 0 5px 20px rgb(220, 216, 216);
+    height: 70vh;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+.block_playing{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 40%;
+}
+.img_cd{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    animation: circle 10s linear infinite;
+}
+@keyframes circle{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.block_volume{
+    margin: 0 auto;
+}
+.menu{
+    height: 76px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgb(220, 216, 216);
+    padding-top: 15px;
+    margin-top: 18px;
+}
