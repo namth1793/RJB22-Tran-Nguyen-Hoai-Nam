@@ -1,9 +1,9 @@
-import Final from './media player/Final';
+import ImageSlide from "./session 3/ImageSlide";
 
 function App() {
   return (
     <div>
-      <Final/>
+      <ImageSlide/>
     </div>
   )
 }
