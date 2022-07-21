@@ -1,0 +1,47 @@
+.block{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 grey;
+    padding: 20px 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+input{
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.row-1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.row-4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#check{
+    text-align: left;
+    padding: 30px 0;
+}
+button{
+    border: 0;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    font-weight: 700;
+}
+select{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}

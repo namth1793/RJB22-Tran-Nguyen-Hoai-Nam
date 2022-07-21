@@ -1,9 +1,9 @@
-import ImageSlide from "./session 3/ImageSlide";
+import Session7 from "./session 7/Session7";
 
 function App() {
   return (
     <div>
-      <ImageSlide/>
+      <Session7/>
     </div>
   )
 }
