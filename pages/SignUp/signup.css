@@ -1,0 +1,32 @@
+.block-child{
+    background-color: white;
+    width: 30%;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px -10px black;
+    margin-bottom: -5px;
+    line-height: 15px;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    height: 40px;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    margin: 10px 0;
+    padding: 0 0 0 10px;
+}
+#check{
+    width: initial;
+    height: initial;
+    margin-left: 10px;
+}
+#login{
+    color: blue;
+    text-decoration: underline;
+}
